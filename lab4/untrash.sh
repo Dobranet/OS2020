@@ -17,8 +17,8 @@ tlogPath=$HOME/.trash.log
 [ -s $tlogPath ] || { echo "File trash.log is empty"; exit 1; };
 
 tdirPath=$HOME/.trash
-[ -d "$tdirPath" ] || [ echo "hidden directory .trash does not exist"; exit 1; };
-[ "$(ls -A $tdirPath)" ] || {echo "hidden directory is empty"; exit 1; };
+[ -d "$tdirPath" ] || { echo "hidden directory .trash does not exist"; exit 1; };
+[ "$(ls -A $tdirPath)" ] || { echo "hidden directory is empty"; exit 1; };
 
 IFS=$'\n'
 findFile=0
