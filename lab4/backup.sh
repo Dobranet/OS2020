@@ -1,5 +1,5 @@
 #!/bin/bash
-path="/home/user/"
+path="/home/user"
 dateFull=$(date +'%F')
 dateSec=$(date -d "$dateFull" +'%s')
 
@@ -9,7 +9,7 @@ datePrevBackSec=$(date -d "$datePrevBack" +'%s')
 dateComparisonSec=$((dateSec - datePrevBackSec))
 dateComparison=$((dateComparisonSec/3600/24))
 
-[ -d "$path/sourse" ] || { echo "Directory $path/sourse does not exist"; exit 1; }
+[ -d "$path/source" ] || { echo "Directory $path/source does not exist"; exit 1; }
 if [[ "$dateComparison" -gt 7 || ! $prevBack ]];
 then
 currentBack="$path/Backup-$dateFull"
