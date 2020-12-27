@@ -1,0 +1,41 @@
+Comparing files C:\LAB6\list.txt and C:\LAB6\NEWLIST.TXT
+***** C:\LAB6\list.txt
+   Application Information
+   AppX Deployment Service (AppXSVC)
+   AVCTP service
+***** C:\LAB6\NEWLIST.TXT
+   Application Information
+   AVCTP service
+*****
+
+***** C:\LAB6\list.txt
+   Base Filtering Engine
+   Capability Access Manager Service
+   Client License Service (ClipSVC)
+   Clipboard User Service_d4342
+***** C:\LAB6\NEWLIST.TXT
+   Base Filtering Engine
+   Clipboard User Service_d4342
+*****
+
+***** C:\LAB6\list.txt
+   DCOM Server Process Launcher
+   Delivery Optimization
+   Device Association Service
+   Device Management Wireless Application Protocol (WAP) Push message Routing Service
+   DHCP Client
+***** C:\LAB6\NEWLIST.TXT
+   DCOM Server Process Launcher
+   Device Association Service
+   DHCP Client
+*****
+
+***** C:\LAB6\list.txt
+   Network Store Interface Service
+   Optimize drives
+   Payments and NFC/SE Manager
+***** C:\LAB6\NEWLIST.TXT
+   Network Store Interface Service
+   Payments and NFC/SE Manager
+*****
+

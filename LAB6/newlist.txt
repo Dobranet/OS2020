@@ -1,0 +1,95 @@
+These Windows services are started:
+
+   Application Information
+   AVCTP service
+   Background Intelligent Transfer Service
+   Background Tasks Infrastructure Service
+   Base Filtering Engine
+   Clipboard User Service_d4342
+   CNG Key Isolation
+   COM+ Event System
+   Connected Devices Platform Service
+   Connected Devices Platform User Service_d4342
+   Connected User Experiences and Telemetry
+   Contact Data_d4342
+   CoreMessaging
+   Credential Manager
+   Cryptographic Services
+   Data Sharing Service
+   Data Usage
+   DCOM Server Process Launcher
+   Device Association Service
+   DHCP Client
+   Diagnostic Policy Service
+   Diagnostic Service Host
+   Distributed Link Tracking Client
+   DNS Client
+   Function Discovery Provider Host
+   Function Discovery Resource Publication
+   Geolocation Service
+   IP Helper
+   Local Session Manager
+   Microsoft Windows SMS Router Service.
+   Network Connected Devices Auto-Setup
+   Network Connection Broker
+   Network List Service
+   Network Location Awareness
+   Network Store Interface Service
+   Payments and NFC/SE Manager
+   Plug and Play
+   Power
+   Print Spooler
+   Program Compatibility Assistant Service
+   Puppet Agent
+   Radio Management Service
+   Remote Access Connection Manager
+   Remote Procedure Call (RPC)
+   RPC Endpoint Mapper
+   Secure Socket Tunneling Protocol Service
+   Security Accounts Manager
+   Security Center
+   Server
+   Shell Hardware Detection
+   SSDP Discovery
+   State Repository Service
+   Storage Service
+   Sync Host_d4342
+   SysMain
+   System Event Notification Service
+   System Events Broker
+   System Guard Runtime Monitor Broker
+   Task Scheduler
+   TCP/IP NetBIOS Helper
+   Themes
+   Time Broker
+   Touch Keyboard and Handwriting Panel Service
+   Update Orchestrator Service
+   User Data Access_d4342
+   User Data Storage_d4342
+   User Manager
+   User Profile Service
+   VirtualBox Guest Additions Service
+   WarpJITSvc
+   Web Account Manager
+   Windows Audio
+   Windows Audio Endpoint Builder
+   Windows Connection Manager
+   Windows Defender Antivirus Network Inspection Service
+   Windows Defender Antivirus Service
+   Windows Defender Firewall
+   Windows Event Log
+   Windows Font Cache Service
+   Windows License Manager Service
+   Windows Licensing Monitoring Service
+   Windows Management Instrumentation
+   Windows Push Notifications System Service
+   Windows Push Notifications User Service_d4342
+   Windows Remote Management (WS-Management)
+   Windows Search
+   Windows Security Service
+   Windows Update
+   WinHTTP Web Proxy Auto-Discovery Service
+   Workstation
+
+The command completed successfully.
+
