@@ -1,0 +1,10 @@
+cd C:\LAB6
+net start > list.txt
+cd . > 3.bat
+echo net stop dnscache >> 3.bat
+echo timeout /t 1 >> 3.bat
+echo net start > newlist.txt >> 3.bat
+cd . > 3_3.bat
+echo fc C:\LAB6\lists.txt C:\LAB6\newlist.txt > C:\LAB6\diff.txt >> 3_3.bat
+echo C:\LAB6\3_3.bat >> 3.bat
+echo net start dnscache >> 3.bat

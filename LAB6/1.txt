@@ -1,0 +1,11 @@
+cd C:\
+mkdir Lab6
+systeminfo | findstr /R /C:"OS Version" > C:/LAB6/OS.txt
+systeminfo | findstr /B /C:"Memory" > C:/LAB6/Memory.txt
+wmic diskdrive get Name > C:/LAB6/diskdrive.txt
+mkdir TEST
+cd LAB6
+copy *.txt TEST
+cd TEST
+copy OS.txt+Memory.txt+diskdrive.txt OS_Mem_dskdel.txt
+del OS.txt Memory.txt diskdrive.txt

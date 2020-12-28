@@ -1,0 +1,13 @@
+hostname
+cd C:\Users\IEUser
+mkdir temp
+net share temp=C:\Users\IEUser\temp
+cd C:\LAB6
+cd . > 2_2.bat
+echo copy /z C:\Windows\System32\WindowsCodecsRaw.dll C:\Users\IEUser\temp >> 2_2.bat
+schtasks /create /sc minute /tn 2_2 /tr C:\LAB6\2_2.exe
+tasklist
+taskkill /IM 2_2.exe
+comp C:\Windows\System32\WindowsCodecsRaw.dll C:\Users\IEUser\temp\WindowsCodecsRaw.dll
+copy /z C:\Windows\System32\WindowsCodecsRaw.dll C:\Users\IEUser\temp
+comp C:\Windows\System32\WindowsCodecsRaw.dll C:\Users\IEUser\temp\WindowsCodecsRaw.dll
